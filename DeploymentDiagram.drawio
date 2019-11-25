@@ -1,1 +1,43 @@
-<mxfile host="www.draw.io" modified="2019-11-25T16:43:52.449Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="zr5gttjHQmOmgNMGLdLf" version="12.3.0" type="github" pages="1"><diagram id="-47FCgSeEFDJPJqs-hra" name="Page-1">dZFNE4IgEIZ/DXeVaryb1aWTh86MbMIMug7SSP36cICMsS7M8uy734RWvT1rNoorclCkyLgl9EiKojyU7l3A04PdPvOg05J7lK+gkS8IMMoeksOUCA2iMnJMYYvDAK1JGNMa51R2R5VWHVkHG9C0TG3pTXIjwlhxioVfQHYiVs6z4OlZFAcwCcZx/kK0JrTSiMZbva1ALbuLe/Fxpz/eT2MaBvMjwBlrbvdJDkTrNw==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-25T16:49:00.002Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="XH7EEz_7P-vdx2IvNHpf" version="12.3.0" type="github" pages="1">
+  <diagram id="-47FCgSeEFDJPJqs-hra" name="Page-1">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="xN3pcCqZH3xpEfWHNsk7-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xN3pcCqZH3xpEfWHNsk7-1" target="xN3pcCqZH3xpEfWHNsk7-12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xN3pcCqZH3xpEfWHNsk7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xN3pcCqZH3xpEfWHNsk7-1" target="xN3pcCqZH3xpEfWHNsk7-14">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xN3pcCqZH3xpEfWHNsk7-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/jenkins-128.png" vertex="1" parent="1">
+          <mxGeometry x="480" y="95" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xN3pcCqZH3xpEfWHNsk7-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xN3pcCqZH3xpEfWHNsk7-2" target="xN3pcCqZH3xpEfWHNsk7-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xN3pcCqZH3xpEfWHNsk7-2" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" vertex="1" parent="1">
+          <mxGeometry x="300" y="87.5" width="75" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="xN3pcCqZH3xpEfWHNsk7-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xN3pcCqZH3xpEfWHNsk7-3" target="xN3pcCqZH3xpEfWHNsk7-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xN3pcCqZH3xpEfWHNsk7-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/software-engineering-and-video-gaming/512/77_hacker_user_gammer_programmer-128.png" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="90" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="xN3pcCqZH3xpEfWHNsk7-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xN3pcCqZH3xpEfWHNsk7-4" target="xN3pcCqZH3xpEfWHNsk7-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xN3pcCqZH3xpEfWHNsk7-4" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="150" y="98.5" width="83" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="xN3pcCqZH3xpEfWHNsk7-12" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" vertex="1" parent="1">
+          <mxGeometry x="472" y="220" width="76" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="xN3pcCqZH3xpEfWHNsk7-14" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Azure_Database_for_MySQL_servers.svg;" vertex="1" parent="1">
+          <mxGeometry x="610" y="230" width="38" height="50" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
