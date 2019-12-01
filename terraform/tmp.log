@@ -1,0 +1,243 @@
+[33m
+[1m[33mWarning: [0m[0m[1mQuoted references are deprecated[0m
+
+[0m  on config-management.tf line 25, in resource "null_resource" "installation_wp":
+  25:   depends_on = [[4m"null_resource.installation_mariadb"[0m]
+[0m
+In this context, references are expected literally rather than in quotes.
+Terraform 0.11 and earlier required quotes, but quoted references are now
+deprecated and will be removed in a future version of Terraform. Remove the
+quotes surrounding this reference to silence this warning.
+[0m[0m
+[33m
+[1m[33mWarning: [0m[0m[1mInterpolation-only expressions are deprecated[0m
+
+[0m  on .terraform\modules\azureblr_demo_vnet\Azure-terraform-azurerm-vnet-e0b9155\main.tf line 3, in resource "azurerm_resource_group" "vnet":
+   3:   name     = [4m"${var.resource_group_name}"[0m
+[0m
+Terraform 0.11 and earlier required all non-constant expressions to be
+provided via interpolation syntax, but this pattern is now deprecated. To
+silence this warning, remove the "${ sequence from the start and the }"
+sequence from the end of this expression, leaving just the inner expression.
+
+Template interpolation syntax is still used to construct strings from
+expressions when the template includes multiple interpolation sequences or a
+mixture of literal strings and interpolations. This deprecation applies only
+to templates that consist entirely of a single interpolation sequence.
+[0m[0m
+[33m
+[1m[33mWarning: [0m[0m[1mInterpolation-only expressions are deprecated[0m
+
+[0m  on .terraform\modules\azureblr_demo_vnet\Azure-terraform-azurerm-vnet-e0b9155\main.tf line 4, in resource "azurerm_resource_group" "vnet":
+   4:   location = [4m"${var.location}"[0m
+[0m
+Terraform 0.11 and earlier required all non-constant expressions to be
+provided via interpolation syntax, but this pattern is now deprecated. To
+silence this warning, remove the "${ sequence from the start and the }"
+sequence from the end of this expression, leaving just the inner expression.
+
+Template interpolation syntax is still used to construct strings from
+expressions when the template includes multiple interpolation sequences or a
+mixture of literal strings and interpolations. This deprecation applies only
+to templates that consist entirely of a single interpolation sequence.
+[0m[0m
+[33m
+[1m[33mWarning: [0m[0m[1mInterpolation-only expressions are deprecated[0m
+
+[0m  on .terraform\modules\azureblr_demo_vnet\Azure-terraform-azurerm-vnet-e0b9155\main.tf line 8, in resource "azurerm_virtual_network" "vnet":
+   8:   name                = [4m"${var.vnet_name}"[0m
+[0m
+Terraform 0.11 and earlier required all non-constant expressions to be
+provided via interpolation syntax, but this pattern is now deprecated. To
+silence this warning, remove the "${ sequence from the start and the }"
+sequence from the end of this expression, leaving just the inner expression.
+
+Template interpolation syntax is still used to construct strings from
+expressions when the template includes multiple interpolation sequences or a
+mixture of literal strings and interpolations. This deprecation applies only
+to templates that consist entirely of a single interpolation sequence.
+[0m[0m
+[33m
+[1m[33mWarning: [0m[0m[1mInterpolation-only expressions are deprecated[0m
+
+[0m  on .terraform\modules\azureblr_demo_vnet\Azure-terraform-azurerm-vnet-e0b9155\main.tf line 9, in resource "azurerm_virtual_network" "vnet":
+   9:   location            = [4m"${var.location}"[0m
+[0m
+Terraform 0.11 and earlier required all non-constant expressions to be
+provided via interpolation syntax, but this pattern is now deprecated. To
+silence this warning, remove the "${ sequence from the start and the }"
+sequence from the end of this expression, leaving just the inner expression.
+
+Template interpolation syntax is still used to construct strings from
+expressions when the template includes multiple interpolation sequences or a
+mixture of literal strings and interpolations. This deprecation applies only
+to templates that consist entirely of a single interpolation sequence.
+[0m[0m
+[33m
+[1m[33mWarning: [0m[0m[1mInterpolation-only expressions are deprecated[0m
+
+[0m  on .terraform\modules\azureblr_demo_vnet\Azure-terraform-azurerm-vnet-e0b9155\main.tf line 11, in resource "azurerm_virtual_network" "vnet":
+  11:   resource_group_name = [4m"${azurerm_resource_group.vnet.name}"[0m
+[0m
+Terraform 0.11 and earlier required all non-constant expressions to be
+provided via interpolation syntax, but this pattern is now deprecated. To
+silence this warning, remove the "${ sequence from the start and the }"
+sequence from the end of this expression, leaving just the inner expression.
+
+Template interpolation syntax is still used to construct strings from
+expressions when the template includes multiple interpolation sequences or a
+mixture of literal strings and interpolations. This deprecation applies only
+to templates that consist entirely of a single interpolation sequence.
+[0m[0m
+[33m
+[1m[33mWarning: [0m[0m[1mInterpolation-only expressions are deprecated[0m
+
+[0m  on .terraform\modules\azureblr_demo_vnet\Azure-terraform-azurerm-vnet-e0b9155\main.tf line 12, in resource "azurerm_virtual_network" "vnet":
+  12:   dns_servers         = [4m"${var.dns_servers}"[0m
+[0m
+Terraform 0.11 and earlier required all non-constant expressions to be
+provided via interpolation syntax, but this pattern is now deprecated. To
+silence this warning, remove the "${ sequence from the start and the }"
+sequence from the end of this expression, leaving just the inner expression.
+
+Template interpolation syntax is still used to construct strings from
+expressions when the template includes multiple interpolation sequences or a
+mixture of literal strings and interpolations. This deprecation applies only
+to templates that consist entirely of a single interpolation sequence.
+[0m[0m
+[33m
+[1m[33mWarning: [0m[0m[1mInterpolation-only expressions are deprecated[0m
+
+[0m  on .terraform\modules\azureblr_demo_vnet\Azure-terraform-azurerm-vnet-e0b9155\main.tf line 13, in resource "azurerm_virtual_network" "vnet":
+  13:   tags                = [4m"${var.tags}"[0m
+[0m
+Terraform 0.11 and earlier required all non-constant expressions to be
+provided via interpolation syntax, but this pattern is now deprecated. To
+silence this warning, remove the "${ sequence from the start and the }"
+sequence from the end of this expression, leaving just the inner expression.
+
+Template interpolation syntax is still used to construct strings from
+expressions when the template includes multiple interpolation sequences or a
+mixture of literal strings and interpolations. This deprecation applies only
+to templates that consist entirely of a single interpolation sequence.
+[0m[0m
+[33m
+[1m[33mWarning: [0m[0m[1mInterpolation-only expressions are deprecated[0m
+
+[0m  on .terraform\modules\azureblr_demo_vnet\Azure-terraform-azurerm-vnet-e0b9155\main.tf line 17, in resource "azurerm_subnet" "subnet":
+  17:   name                      = [4m"${var.subnet_names[count.index]}"[0m
+[0m
+Terraform 0.11 and earlier required all non-constant expressions to be
+provided via interpolation syntax, but this pattern is now deprecated. To
+silence this warning, remove the "${ sequence from the start and the }"
+sequence from the end of this expression, leaving just the inner expression.
+
+Template interpolation syntax is still used to construct strings from
+expressions when the template includes multiple interpolation sequences or a
+mixture of literal strings and interpolations. This deprecation applies only
+to templates that consist entirely of a single interpolation sequence.
+[0m[0m
+[33m
+[1m[33mWarning: [0m[0m[1mInterpolation-only expressions are deprecated[0m
+
+[0m  on .terraform\modules\azureblr_demo_vnet\Azure-terraform-azurerm-vnet-e0b9155\main.tf line 18, in resource "azurerm_subnet" "subnet":
+  18:   virtual_network_name      = [4m"${azurerm_virtual_network.vnet.name}"[0m
+[0m
+Terraform 0.11 and earlier required all non-constant expressions to be
+provided via interpolation syntax, but this pattern is now deprecated. To
+silence this warning, remove the "${ sequence from the start and the }"
+sequence from the end of this expression, leaving just the inner expression.
+
+Template interpolation syntax is still used to construct strings from
+expressions when the template includes multiple interpolation sequences or a
+mixture of literal strings and interpolations. This deprecation applies only
+to templates that consist entirely of a single interpolation sequence.
+[0m[0m
+[33m
+[1m[33mWarning: [0m[0m[1mInterpolation-only expressions are deprecated[0m
+
+[0m  on .terraform\modules\azureblr_demo_vnet\Azure-terraform-azurerm-vnet-e0b9155\main.tf line 19, in resource "azurerm_subnet" "subnet":
+  19:   resource_group_name       = [4m"${azurerm_resource_group.vnet.name}"[0m
+[0m
+Terraform 0.11 and earlier required all non-constant expressions to be
+provided via interpolation syntax, but this pattern is now deprecated. To
+silence this warning, remove the "${ sequence from the start and the }"
+sequence from the end of this expression, leaving just the inner expression.
+
+Template interpolation syntax is still used to construct strings from
+expressions when the template includes multiple interpolation sequences or a
+mixture of literal strings and interpolations. This deprecation applies only
+to templates that consist entirely of a single interpolation sequence.
+[0m[0m
+[33m
+[1m[33mWarning: [0m[0m[1mInterpolation-only expressions are deprecated[0m
+
+[0m  on .terraform\modules\azureblr_demo_vnet\Azure-terraform-azurerm-vnet-e0b9155\main.tf line 20, in resource "azurerm_subnet" "subnet":
+  20:   address_prefix            = [4m"${var.subnet_prefixes[count.index]}"[0m
+[0m
+Terraform 0.11 and earlier required all non-constant expressions to be
+provided via interpolation syntax, but this pattern is now deprecated. To
+silence this warning, remove the "${ sequence from the start and the }"
+sequence from the end of this expression, leaving just the inner expression.
+
+Template interpolation syntax is still used to construct strings from
+expressions when the template includes multiple interpolation sequences or a
+mixture of literal strings and interpolations. This deprecation applies only
+to templates that consist entirely of a single interpolation sequence.
+[0m[0m
+[33m
+[1m[33mWarning: [0m[0m[1mInterpolation-only expressions are deprecated[0m
+
+[0m  on .terraform\modules\azureblr_demo_vnet\Azure-terraform-azurerm-vnet-e0b9155\main.tf line 21, in resource "azurerm_subnet" "subnet":
+  21:   network_security_group_id = [4m"${lookup(var.nsg_ids,var.subnet_names[count.index],"")}"[0m
+[0m
+Terraform 0.11 and earlier required all non-constant expressions to be
+provided via interpolation syntax, but this pattern is now deprecated. To
+silence this warning, remove the "${ sequence from the start and the }"
+sequence from the end of this expression, leaving just the inner expression.
+
+Template interpolation syntax is still used to construct strings from
+expressions when the template includes multiple interpolation sequences or a
+mixture of literal strings and interpolations. This deprecation applies only
+to templates that consist entirely of a single interpolation sequence.
+[0m[0m
+[33m
+[1m[33mWarning: [0m[0m[1mInterpolation-only expressions are deprecated[0m
+
+[0m  on .terraform\modules\azureblr_demo_vnet\Azure-terraform-azurerm-vnet-e0b9155\main.tf line 22, in resource "azurerm_subnet" "subnet":
+  22:   count                     = [4m"${length(var.subnet_names)}"[0m
+[0m
+Terraform 0.11 and earlier required all non-constant expressions to be
+provided via interpolation syntax, but this pattern is now deprecated. To
+silence this warning, remove the "${ sequence from the start and the }"
+sequence from the end of this expression, leaving just the inner expression.
+
+Template interpolation syntax is still used to construct strings from
+expressions when the template includes multiple interpolation sequences or a
+mixture of literal strings and interpolations. This deprecation applies only
+to templates that consist entirely of a single interpolation sequence.
+[0m[0m
+[33m
+[1m[33mWarning: [0m[0m[1mQuoted type constraints are deprecated[0m
+
+[0m  on .terraform\modules\azureblr_demo_vnet\Azure-terraform-azurerm-vnet-e0b9155\variables.tf line 39, in variable "nsg_ids":
+  39:   type        = [4m"map"[0m
+[0m
+Terraform 0.11 and earlier required type constraints to be given in quotes,
+but that form is now deprecated and will be removed in a future version of
+Terraform. To silence this warning, remove the quotes around "map" and write
+map(string) instead to explicitly indicate that the map elements are strings.
+[0m[0m
+[33m
+[1m[33mWarning: [0m[0m[1mQuoted type constraints are deprecated[0m
+
+[0m  on .terraform\modules\azureblr_demo_vnet\Azure-terraform-azurerm-vnet-e0b9155\variables.tf line 49, in variable "tags":
+  49:   type        = [4m"map"[0m
+[0m
+Terraform 0.11 and earlier required type constraints to be given in quotes,
+but that form is now deprecated and will be removed in a future version of
+Terraform. To silence this warning, remove the quotes around "map" and write
+map(string) instead to explicitly indicate that the map elements are strings.
+[0m[0m
+[32m[1mSuccess![0m The configuration is valid, but there were some validation warnings as shown above.
+[0m

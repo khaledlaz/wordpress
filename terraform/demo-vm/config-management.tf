@@ -1,12 +1,12 @@
 resource "null_resource" "installation_mariadb" {
   triggers = {
-    ids = "${azurerm_virtual_machine.azureblr_demo_vm.id}"
+    ids = azurerm_virtual_machine.azureblr_demo_vm.id
   }
 
   connection {
-    host        = "${azurerm_public_ip.azureblr_demo_public_ip.ip_address}"
-    user        = "${var.vm_username}"
-    private_key = "${tls_private_key.id_rsa.private_key_pem}"
+    host        = azurerm_public_ip.azureblr_demo_public_ip.ip_address
+    user        = var.vm_username
+    private_key = tls_private_key.id_rsa.private_key_pem
   }
 
   provisioner "remote-exec" {
@@ -22,16 +22,16 @@ resource "null_resource" "installation_mariadb" {
 }
 
 resource "null_resource" "installation_wp" {
-  depends_on = ["null_resource.installation_mariadb"]
+  depends_on = null_resource.installation_mariadb
 
   triggers = {
-    ids = "${azurerm_virtual_machine.azureblr_demo_vm.id}"
+    ids = azurerm_virtual_machine.azureblr_demo_vm.id
   }
 
   connection {
-    host        = "${azurerm_public_ip.azureblr_demo_public_ip.ip_address}"
-    user        = "${var.vm_username}"
-    private_key = "${tls_private_key.id_rsa.private_key_pem}"
+    host        = azurerm_public_ip.azureblr_demo_public_ip.ip_address
+    user        = var.vm_username
+    private_key = tls_private_key.id_rsa.private_key_pem
   }
 
   provisioner "remote-exec" {
