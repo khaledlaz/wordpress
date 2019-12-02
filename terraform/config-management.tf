@@ -44,6 +44,7 @@ resource "null_resource" "installation_wp" {
       "cd /var/www/html/",
       "sudo -u ${var.vm_username} /usr/local/bin/wp core download --version=5.1.1",
       "sudo -u ${var.vm_username} /usr/local/bin/wp core config --dbname='${local.wp_database_name}' --dbuser='${local.wp_database_user}'",
+      "sudo chmod -R 777 wp-content"
     ]
   }
 }
