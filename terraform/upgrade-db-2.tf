@@ -1,4 +1,4 @@
-resource "null_resource" "upgrade_database_v1" {
+resource "null_resource" "upgrade_database_v2" {
   
   triggers = {
       ids="${azurerm_virtual_machine.azureblr_demo_vm.id}"
@@ -11,7 +11,7 @@ resource "null_resource" "upgrade_database_v1" {
   }
   
   provisioner "file" {
-    content     = file("../db/v1.0.sql")
+    content     = file("../db/v1.1.sql")
     destination = "/tmp/database.sql"
   }
   provisioner "remote-exec" {
@@ -21,6 +21,3 @@ resource "null_resource" "upgrade_database_v1" {
   }
 }
 
-output "instance_ip_addr" {
-    value = "${azurerm_public_ip.azureblr_demo_public_ip}"
-}
